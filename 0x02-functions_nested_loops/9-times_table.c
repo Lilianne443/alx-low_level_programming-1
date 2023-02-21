@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * times_table - Printsthe 9 times table, starting with 0
+ * time_table - Printsthe 9 times table, starting with 0
  * Return: empty output
  */
 
