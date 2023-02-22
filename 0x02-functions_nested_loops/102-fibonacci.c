@@ -22,10 +22,10 @@ int main(void)
 
 		if (i < 49)
 		{
-			print(", ");
+			printf(", ");
 		}
 		i++;
 	}
-	printf("\n");
+	putchar("\n");
 	return (0);
 }
