@@ -1,8 +1,10 @@
 #include <stdio.h>
 
 /**
- * main - Prints the first 52 fibonacci numbers
- * Return: Nothing!
+ * main - main block
+ * Description: computes and prints the sum of all the multiples of 8 or 
+ * 5 below 1024 (excluded, followed by a new line
+ * Return: 0
  */
 
 int main(void)
@@ -10,21 +12,19 @@ int main(void)
 {
 
 	int i = 0;
-	long j - 1, k = 2;
+	long int a = 0, b = 1, next;
 
 	while (i <50)
 	{
-	if (i == 0)
-	printf("%ld", j);
-	else if ( == 1)
-	printf(", %ld", k);
-	else
-	{
-	k += j;
-	j = k -j;
-	printf(", %ld", k);
-	}
-	++i;
+		next = a + b;
+		a = b;
+		print ("%lu", next);
+
+		if (i < 49)
+		{
+			print(", ");
+		}
+		i++;
 	}
 	printf("\n");
 	return (0);
